@@ -16,4 +16,4 @@ jobs:
         run: |
           npm i
           npm run build
-          mv public/index.html public/index.nginx-debian.html
+          mv src/index.html public/index.nginx-debian.html
